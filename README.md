@@ -12,3 +12,10 @@ The Seq2Seq model used in this project uses an encoder-decoder pair, each consit
 
 We wanted to host AhoyBot on a public url, but the bulky nature of a Pytorch installation on a webserver and also the big size of the models prevented us from doing so on the limited-size webhosts available free of cost. But it's easy to get AhoyBot running on your local system. Here are the instructions:  
 
+1. Clone this git repo
+2. Make sure Python 3.x is installed on your system, along with Python libraries PyTorch, Flask and Re.
+3. run `python flask_app.py`
+4. If you get any "module not found" error, please install those Python libraries, else, the app should be up and running on localhost, on port 5001
+5. Open a browser of your choice, and hit the following url: `localhost:5001`
+6. Now you should be able to converse with AhoyBot.
+
