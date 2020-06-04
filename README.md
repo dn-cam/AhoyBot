@@ -6,7 +6,7 @@ The goal behind this project was to find out of Seq2Seq models can learn to spea
 
 The Seq2Seq model used in this project uses an encoder-decoder pair, each consiting of 2 LSTM-RNN layers, along with Luong Attention Mechanism to preserve context of a conversation. The model was implmented using PyTorch library in Python. After training the model for 300,000 iterations we observed that the Chatbot gained considerable "Personality", but it still struggled in forming grammatically correct sentences. The latter was an expected result, since Seq2Seq models being of Generative nature, take a long time to "learn" the grammar of a language.
 
-![GitHub Logo](https://github.com/dn-cam/AhoyBot/blob/master/Conversation%20Screenshots/Conversation_1.png)
+![GitHub Logo](https://github.com/dn-cam/AhoyBot/blob/master/Conversation%20Screenshots/Conversation_2.png)
 
 ## Running AhoyBot on your own machine
 
